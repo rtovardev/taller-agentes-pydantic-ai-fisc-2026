@@ -2,7 +2,7 @@
 
 **Jueves 24 de septiembre de 2026 · 1:00–3:00 p. m. · Ricardo Tovar**
 
-Este repositorio contiene los recursos para participar en el taller: un Google Colab ejecutable y un brief PDF de cuatro páginas. Necesitas conocer lo básico de Python, una cuenta Google y una clave propia de Google AI Studio. El uso de la API puede estar sujeto a las cuotas y condiciones de tu cuenta.
+Este repositorio contiene los recursos para participar en el taller: un Google Colab ejecutable, un brief PDF de cuatro páginas y un resumen de repaso en PDF. Necesitas conocer lo básico de Python, una cuenta Google y una clave propia de Google AI Studio. El uso de la API puede estar sujeto a las cuotas y condiciones de tu cuenta.
 
 ## Empieza aquí
 
@@ -12,6 +12,7 @@ Este repositorio contiene los recursos para participar en el taller: un Google C
 2. Guarda tu clave de Google AI Studio en **Colab Secrets** con el nombre `GOOGLE_API_KEY` y activa el acceso del notebook. No pegues la clave en una celda.
 3. Ejecuta las celdas en orden. El recorrido dura unos 40 minutos.
 4. Descarga el [brief del taller](brief-taller-fisc.pdf) para repasar conceptos, comandos y opciones de proyecto.
+5. Conserva el [resumen del taller](resumen.pdf) como mapa breve de conceptos y prácticas.
 
 ## Qué aprenderás
 
