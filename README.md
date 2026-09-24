@@ -21,24 +21,15 @@ Este repositorio contiene los recursos para participar en el taller: un Google C
 - Elegir entre un agente sencillo y un patrón de revisión cuando exista un criterio para medir la mejora.
 - Dar a un coding agent un objetivo, límites y casos de aceptación para iniciar un proyecto local.
 
-El notebook es la práctica guiada. Conserva el recorrido principal y añade extensiones opcionales para inspeccionar mensajes, limitar solicitudes, crear un clasificador con una tool local y probarlo con casos normales y ambiguos. También incluye un ejemplo opcional de writer/reviewer. Las explicaciones amplían `BaseModel`, `async/await`, `tool_plain` frente a `tool`, `RunContext`, dependencias, streaming e historial persistido. Los snippets de ampliación están marcados como opcionales.
+El notebook es la práctica guiada. Conserva el recorrido principal y añade extensiones opcionales para inspeccionar mensajes, limitar solicitudes, crear un clasificador con una tool local y probarlo con casos normales y ambiguos. También incluye un ejemplo opcional de writer/reviewer. Las explicaciones amplían `BaseModel`, `async/await`, `tool_plain` frente a `tool`, contexto de ejecución, streaming e historial persistido. Los snippets de ampliación están marcados como opcionales.
 
-En el proyecto final puedes construir un extractor de acuerdos, un asistente sobre una guía corta, un clasificador de incidencias o una idea propia. Define entrada, salida, una capacidad útil y un caso difícil. Una ejecución reproducible y la revisión de un caso ambiguo son la meta inicial; una interfaz es opcional. El ejemplo de MART que se conversa durante la charla es un caso de diseño ficticio, no una demo funcional incluida aquí.
+En el proyecto final puedes construir un extractor de acuerdos, un asistente sobre una guía corta, un clasificador de incidencias o una idea propia. Define entrada, salida, una capacidad útil y un caso difícil. Una ejecución reproducible y la revisión de un caso ambiguo son la meta inicial; una interfaz es opcional.
 
-## Proyecto local con OpenCode
+## Construcción con OpenCode de escritorio
 
-El Colab termina con una ruta para continuar desde tu computadora. Necesitas Node.js/npm, Python y uv. Instala Node.js/npm y uv con sus guías oficiales antes de empezar:
+Abre la aplicación y selecciona la carpeta del proyecto. Describe el objetivo, la entrada, el contrato de salida y una herramienta que aporte datos. Pide primero un plan pequeño con Pydantic AI; después revisa la construcción y los resultados.
 
-```sh
-npm install -g opencode-ai
-uv init mi-agente
-cd mi-agente
-uv add pydantic-ai
-npx skills add pydantic/skills
-opencode
-```
-
-Al instalar skills, selecciona Pydantic AI, OpenCode y el alcance del proyecto. En OpenCode elige en `/models` una opción marcada como Free disponible en tu sesión, usa `/init` y revisa el `AGENTS.md` generado. Las opciones gratuitas dependen de la sesión y pueden cambiar. La clave del proveedor para ejecutar tu programa Python se configura por separado. Consulta la [guía oficial de OpenCode](https://opencode.ai/docs/), la [instalación de uv](https://docs.astral.sh/uv/getting-started/installation/) y las [skills de Pydantic AI](https://pydantic.dev/docs/ai/overview/coding-agent-skills/).
+Ideas: extractor de acuerdos, guía de estudio, clasificador de incidencias o revisor de contenido. La entrega mínima es un agente ejecutable, un caso conocido y otro difícil, con una mejora pendiente. El facilitador acompañará la configuración del entorno durante la práctica. Consulta [OpenCode](https://opencode.ai/docs/) y [Pydantic AI](https://pydantic.dev/docs/ai/overview/).
 
 ## Después del taller
 
