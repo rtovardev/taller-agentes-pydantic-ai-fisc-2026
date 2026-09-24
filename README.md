@@ -21,7 +21,7 @@ Este repositorio contiene los recursos para participar en el taller: un Google C
 - Elegir entre un agente sencillo y un patrón de revisión cuando exista un criterio para medir la mejora.
 - Dar a un coding agent un objetivo, límites y casos de aceptación para iniciar un proyecto local.
 
-El notebook es la práctica guiada. Conserva el recorrido principal y añade extensiones opcionales para inspeccionar mensajes, limitar solicitudes, crear un clasificador con una tool local y probarlo con casos normales y ambiguos. También incluye un ejemplo opcional de writer/reviewer.
+El notebook es la práctica guiada. Conserva el recorrido principal y añade extensiones opcionales para inspeccionar mensajes, limitar solicitudes, crear un clasificador con una tool local y probarlo con casos normales y ambiguos. También incluye un ejemplo opcional de writer/reviewer. Las explicaciones amplían `BaseModel`, `async/await`, `tool_plain` frente a `tool`, `RunContext`, dependencias, streaming e historial persistido. Los snippets de ampliación están marcados como opcionales.
 
 En el proyecto final puedes construir un extractor de acuerdos, un asistente sobre una guía corta, un clasificador de incidencias o una idea propia. Define entrada, salida, una capacidad útil y un caso difícil. Una ejecución reproducible y la revisión de un caso ambiguo son la meta inicial; una interfaz es opcional. El ejemplo de MART que se conversa durante la charla es un caso de diseño ficticio, no una demo funcional incluida aquí.
 
